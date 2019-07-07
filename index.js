@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
   obj.key = 2;
-  return recipes;
+  return obj;
 }
 
 function deleteFromObjectByKey(obj, key) {
